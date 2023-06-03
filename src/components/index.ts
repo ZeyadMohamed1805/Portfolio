@@ -8,17 +8,4 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
-export {
-  Hero,
-  Navbar,
-  About,
-  Tech,
-  Experience,
-  Works,
-  Feedbacks,
-  Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas
-}
+export { Hero, Navbar, About, Tech, Experience, Works, Feedbacks, Contact, EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas }
