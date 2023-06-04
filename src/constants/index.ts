@@ -1,4 +1,4 @@
-import { navLinksType, servicesType, experiencesType, technologiesType } from "../utils/types";
+import { navLinksType, servicesType, experiencesType, technologiesType, projectsType } from "../utils/types";
 
 import {
     mobile,
@@ -193,7 +193,7 @@ import {
     },
   ];
   
-  const projects = [
+  const projects: projectsType = [
     {
       name: "Car Rent",
       description:

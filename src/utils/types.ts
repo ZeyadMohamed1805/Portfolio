@@ -49,3 +49,18 @@ export type ballCanvarProps = {
 export type ballProps = {
     imgUrl: string
 }
+
+export type projectType = {
+    name: string;
+    description: string;
+    tags: {
+        name: string;
+        color: string;
+    }[];
+    image: string;
+    source_code_link: string;
+}
+
+export type projectsType = Array<projectType>
+
+export type projectCardProps = projectType & { index: number }
