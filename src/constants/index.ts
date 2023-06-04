@@ -1,4 +1,4 @@
-import { navLinksType } from "../utils/types";
+import { navLinksType, services } from "../utils/types";
 
 import {
     mobile,
@@ -42,7 +42,7 @@ import {
     },
   ];
   
-  const services = [
+  const services: services = [
     {
       title: "Web Developer",
       icon: web,
