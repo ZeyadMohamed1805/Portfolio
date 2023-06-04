@@ -15,9 +15,22 @@ export type serviceCardProps = {
     icon: string
 }
 
-export type service = {
+export type serviceType = {
     title: string,
     icon: string
 }
 
-export type services = Array<service>
+export type servicesType = Array<serviceType>
+
+export type experienceType = {
+    title: string,
+    company_name: string,
+    icon: string,
+    iconBg: string,
+    date: string,
+    points: Array<string>
+}
+
+export type experiencesType = Array<experienceType>
+
+export type experienceCardProps = {experience: experienceType}

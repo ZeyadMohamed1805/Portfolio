@@ -1,4 +1,4 @@
-import { navLinksType, services } from "../utils/types";
+import { navLinksType, servicesType, experiencesType } from "../utils/types";
 
 import {
     mobile,
@@ -42,7 +42,7 @@ import {
     },
   ];
   
-  const services: services = [
+  const services: servicesType = [
     {
       title: "Web Developer",
       icon: web,
@@ -116,7 +116,7 @@ import {
     },
   ];
   
-  const experiences = [
+  const experiences: experiencesType = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",
