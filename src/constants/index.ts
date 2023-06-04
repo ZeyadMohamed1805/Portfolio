@@ -1,3 +1,5 @@
+import { navLinksType } from "../utils/types";
+
 import {
     mobile,
     backend,
@@ -25,7 +27,7 @@ import {
     threejs,
   } from "../assets";
   
-  export const navLinks = [
+  export const navLinks: navLinksType = [
     {
       id: "about",
       title: "About",
