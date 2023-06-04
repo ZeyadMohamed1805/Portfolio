@@ -34,3 +34,18 @@ export type experienceType = {
 export type experiencesType = Array<experienceType>
 
 export type experienceCardProps = {experience: experienceType}
+
+export type technologyType = {
+    name: string,
+    icon: string
+}
+
+export type technologiesType = Array<technologyType>
+
+export type ballCanvarProps = {
+    icon: string
+}
+
+export type ballProps = {
+    imgUrl: string
+}

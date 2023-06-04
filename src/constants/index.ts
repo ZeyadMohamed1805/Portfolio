@@ -1,4 +1,4 @@
-import { navLinksType, servicesType, experiencesType } from "../utils/types";
+import { navLinksType, servicesType, experiencesType, technologiesType } from "../utils/types";
 
 import {
     mobile,
@@ -24,7 +24,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks: navLinksType = [
@@ -61,7 +60,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const technologies: technologiesType = [
     {
       name: "HTML 5",
       icon: html,
@@ -97,10 +96,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
