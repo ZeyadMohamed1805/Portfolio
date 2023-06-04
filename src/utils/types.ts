@@ -4,3 +4,7 @@ export type navLinkType = {
 }
 
 export type navLinksType = Array<navLinkType>
+
+export type computersProps = {
+    isMobile: boolean
+}
