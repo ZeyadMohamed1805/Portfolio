@@ -64,3 +64,15 @@ export type projectType = {
 export type projectsType = Array<projectType>
 
 export type projectCardProps = projectType & { index: number }
+
+export type testimonialType = {
+    testimonial: string,
+    name: string,
+    designation: string,
+    company: string,
+    image: string
+}
+
+export type testimonialsType = Array<testimonialType>
+
+export type feedbackCardProps = testimonialType & { index: number }

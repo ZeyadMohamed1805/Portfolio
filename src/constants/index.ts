@@ -1,4 +1,4 @@
-import { navLinksType, servicesType, experiencesType, technologiesType, projectsType } from "../utils/types";
+import { navLinksType, servicesType, experiencesType, technologiesType, projectsType, testimonialsType } from "../utils/types";
 
 import {
     mobile,
@@ -24,6 +24,9 @@ import {
     carrent,
     jobit,
     tripguide,
+    testimonalOne,
+    testimonalTwo,
+    testimonalThree
   } from "../assets";
   
   export const navLinks: navLinksType = [
@@ -166,14 +169,14 @@ import {
     },
   ];
   
-  const testimonials = [
+  const testimonials: testimonialsType = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: testimonalOne,
     },
     {
       testimonial:
@@ -181,7 +184,7 @@ import {
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: testimonalTwo,
     },
     {
       testimonial:
@@ -189,7 +192,7 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: testimonalThree,
     },
   ];
   
