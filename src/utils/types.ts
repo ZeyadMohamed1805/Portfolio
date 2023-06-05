@@ -76,3 +76,9 @@ export type testimonialType = {
 export type testimonialsType = Array<testimonialType>
 
 export type feedbackCardProps = testimonialType & { index: number }
+
+export type formValues = {
+    name: string,
+    email: string,
+    message: string
+}

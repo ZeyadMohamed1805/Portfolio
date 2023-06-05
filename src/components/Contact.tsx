@@ -5,10 +5,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from ".";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { formValues } from "../utils/types";
 
 const Contact = () => {
   const formRef = useRef(null);
-  const [ form, setForm ] = useState({name: "", email: "", message: ""})
+  const [ form, setForm ] = useState<formValues>({name: "", email: "", message: ""})
   const [ loading, setLoading ] = useState<boolean>(false);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -56,7 +57,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">
               Your Message
             </span>
-            <textarea rows={7} name="message" value={form.message} onChange={handleChange} placeholder="What's do you want to say?" className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium" />
+            <textarea rows={7} name="message" value={form.message} onChange={handleChange} placeholder="What's do you want to say?" className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg resize-none outlined-none border-none font-medium" />
           </label>
           <button type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
             {
